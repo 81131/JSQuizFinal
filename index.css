@@ -3,7 +3,7 @@ html {
     background-image: url("quizbg.jpg");
     background-repeat: none;
     background-size: cover;
-    height: fixed;
+    height: max-height;
     margin: 0;
     color: antiquewhite;
 }
