@@ -21,7 +21,7 @@ html {
     justify-content: space-around;
     flex-direction: column;
     border-radius: 10px;
-    overflow: visible;
+    overflow: scroll;
 }
 
 .topic {
