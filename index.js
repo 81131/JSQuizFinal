@@ -166,6 +166,7 @@ checkAnswerBtn.addEventListener("click", function() {
     let maindiv = document.getElementsByClassName("maindiv")[0];
     maindiv.style.height = "max-content";
     document.getElementsByTagName("body")[0].style.height = "max-content";
+    document.getElementsByTagName("html")[0].style.height = "max-content";
     checkAnswerBtn.style.display = "none";
     document.getElementsByClassName("topic")[0].style.display = "none";
     displayTable();
