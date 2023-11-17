@@ -164,9 +164,9 @@ function answerDisplay() {
 
 checkAnswerBtn.addEventListener("click", function() {
     let maindiv = document.getElementsByClassName("maindiv")[0];
-    maindiv.style.height = "fit-content";
-    document.getElementsByTagName("body")[0].style.height = "fit-content";
-    document.getElementsByTagName("html")[0].style.height = "fit-content";
+    maindiv.style.height = "auto";
+    document.getElementsByTagName("body")[0].style.height = "auto";
+    document.getElementsByTagName("html")[0].style.height = "auto";
     checkAnswerBtn.style.display = "none";
     document.getElementsByClassName("topic")[0].style.display = "none";
     displayTable();
