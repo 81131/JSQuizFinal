@@ -164,7 +164,7 @@ function answerDisplay() {
 
 checkAnswerBtn.addEventListener("click", function() {
     let maindiv = document.getElementsByClassName("maindiv")[0];
-    maindiv.style.height = "95%";
+    maindiv.style.height = "fixed";
     checkAnswerBtn.style.display = "none";
     document.getElementsByClassName("topic")[0].style.display = "none";
     displayTable();
