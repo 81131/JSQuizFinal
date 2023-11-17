@@ -185,4 +185,7 @@ th:hover {
         font-size: 15px;
         width: 25%;
     }
+    .td{
+        font-size:10px;
+    }
 }
